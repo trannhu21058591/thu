@@ -1,0 +1,37 @@
+
+#bai_10 {
+    color: red;
+}
+
+.bai12 {
+    width: 200px;
+    margin: 0 auto;
+    background-color: rgb(234, 241, 241);
+}
+.bai13 {
+    width: 200px;
+    background-color: rgb(250, 249, 247);
+}
+#message {
+    margin-left: 103px;
+}
+#email{
+    width: 150px;
+    margin-left: 88px;
+}
+#contactUs {
+    width: 500px;
+    height: 410px;
+    background-color: rgb(243, 243, 243);
+}
+.edit {
+    margin-left: 10px;
+}
+.bai17 {
+    background-color: rgb(253, 204, 97);
+    width: 700px;
+    height: 670px;
+}
+.SL {
+    text-align: center;
+}

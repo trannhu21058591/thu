@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Tập Tuần 2</title>
+    <link rel="stylesheet" type="text/css" href="/css/BaiTaptuan2.css">
+</head>
+<body>
+    <div id="bai10">
+        <h3 id="bai_10">Bài 10</h3>
+        <details open>
+            <summary>IUH</summary>
+            <p>Industrial University of Ho Chi Minh City (English: Industrial University of Ho Chi Minh City) is an application-oriented and practice-oriented university, directly under the Ministry of Industry and Trade, specializing in industrial economics training. and industrial engineering, was established on December 24, 2004. <br>
+               On September 24, 2018, the university obtained the AUN-QA accreditation certificate of the ASEAN University Network organization, certifying that the university's qualifications are valid for use in Southeast Asian countries.
+            </p>
+        </details>
+        <details open>
+            <summary>FIT - IUH</summary>
+            <p>The Faculty of Information Technology (IT) was formed in 1996. After a long journey of continuous efforts to improve and develop, the Faculty of Information Technology is gradually asserting its prestige with the motto "Training students to be solid. theory, good practice and master new technology”. <br>
+                Vision: To become a leading prestigious unit in training and research in computer and information technology, integrating with the region and the world <br>
+                Mission: To provide the society with human resources with professional qualifications and skills in the field of computers and information technology to meet the requirements for the socio-economic development of the Industry and Trade industry and the country. effectively in the context of international integration.
+            </p>
+        </details>
+    </div>
+    <hr>
+    <div>
+        <h3>Bài 11</h3>
+        <img src="/image/mozilla_Drumbeat.jpg" alt="mozilla_Drumbeat" style="height: 100px;">
+        <h2>About</h2>
+        <p>Mozilla Drumbeat is a global community of Mozillians who *use* web technology in new ways to understand, participate and take control of their online lives. learn more <br>
+            This is the Drumbeat project management wiki. It is a work in progress and changes frequently.
+        </p>
+        <h3>Project</h3>
+        <ul>
+            <li>Featured
+                <ul>
+                    <li><a href="">School of Webcraft</a></li>
+                    <li><a href="">Crisis Commos</a></li>
+                </ul>
+            </li>
+            <li>Latest
+                <ul>
+                    <li><a href="">JessyInk</a></li>
+                    <li><a href="">PrivacyCamp</a></li>
+                </ul>
+            </li>
+        </ul>
+        <br>
+        <!-- " target = "_blank"  dùng để mở trang liên kết bằng 1 tap khác"-->
+        <p><a href="https://twitter.com/" target="_blank" title="Social Network">twitter</a> |
+        <a href="https://www.facebook.com/" title="Social Network">Facebook</a> | 
+        <a href="https://www.flickr.com/" title="Social Network">Flickr</a></p>
+    </div>
+    <hr>
+    <h3>Bài 12</h3>
+    <div class="bai12">
+        <form action="">
+            <p>Name</p>
+            <input type="text" title="Vui lòng nhập tên"> 
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <hr>
+    <h3>Bài 13</h3>
+    <div class="bai13">
+        <form action="" method="post">
+            <p>Name: <br><input type="text" name="textName" value="" size="20" maxlength="20" ></p>
+            <p>Telephone Number: <br> <input type="text" name="txtTel" value="" size="20" maxlength="20"></p>
+            <p>Email: <br> <input type="text" name="txtEmail" value="" size="20" maxlength="20"></p>
+            <p>Favorite Color: <br> <input type="color" name="txtColor" value="" size="20" maxlength="20"></p>
+            <p>Date of Birth <br> <input type="date" name="txtDate" value="" size="20" maxlength="20"></p>
+            <p><input type="submit" value="Submit"></p>
+        </form>
+    </div>
+    <hr>
+    <h3>Bài 14</h3>
+    <div id="contactUs">
+        <form action="" >
+            <h2 class="edit">Contact Us</h2>
+            <p class="edit">Use the following form to send a message to Example Cafe <br></p>
+            <p class="edit">Your email <input id="email" type="text"></p>
+            <p class="edit">Message <input id="message" style="height: 150px ;width: 300px;" type="text" ></p>
+            <p class="edit">How did you hear of us?  <select style="width: 150px;"><option value="Google">Google</option>
+                                        <option value="Facebook">Facebook</option> 
+                                </select>
+            </p class="edit">
+
+            <p class="edit">Newsletter <input type="checkbox">Ensure this box is checked if you would like to receive email updates</p>
+            <input class="edit" type="submit" value="Send message">
+
+        </form>
+    </div>
+    <hr>
+    <h3>Bài 15</h3>
+    <div>
+        <h2>Contact Us</h2>
+        <fieldset style="width: 300px;"> <!--Tạo 1 khung viền-->
+            <legend>Your message:</legend> <!--Tạo tiêu đề cho khung viền-->
+            <table>
+                <tr> <!--Tạo 1 hàng-->
+                    <td><label for="emailTo">To</label></td> <!--Tạo 1 ô trong hàng-->
+                    <td><input type="text" name="txtTo" readonly="readonly" id="emailTo" size="20" value="Example Cafe"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="emailFrom">Your email</label></td>
+                    <td><input type="text" name="txtFrom" id="emailFrom" size="20" tabindex="1" maxlength="250"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="emailBody">Message</label></td>
+                    <td><textarea name="txtBody" id="emailBody" cols="50" rows="10" tabindex="2"></textarea></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset style="width: 455px;">
+            <legend>How you found us:</legend>
+            <table>
+                <tr>
+                    <td><label for="How">How did you hear <br> of us</label></td>
+                    <td><select name="slHow" id="How" style="width: 150px;">
+                        <option value="">Google</option>
+                        <option value="">Facebook</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="Newsletter">Newsletter</label></td>
+                    <td><input type="checkbox" name="chbNewletter" id="Newletter"> <p>Ensure this box is checked if you would like to <br> receive email updates</p></td>
+                </tr>
+            </table>
+        </fieldset>
+        <input type="submit" value="Send message" style="margin-left: 2px;">
+    </div>
+    <hr>
+
+
+    <div>
+        <fieldset style="width: 400px;">
+            <legend>Contact Information</legend>
+            <table>
+                <tr>
+                    <td><label for="FN">First name:</label></td>
+                    <td><input type="text" name="txtFN" id="FN" size="20"></td>
+                </tr>
+                <tr>
+                    <td><label for="LN">Last name:</label></td>
+                    <td><input type="text" name="txtLN" id="LN" size="20"></td>
+                </tr>
+                <tr>
+                    <td><label for="Email">E-mail</label></td>
+                    <td><input type="text" name="txtEmail" id="Email" size="20"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset style="width: 400px;">
+            <legend>Competition Question</legend>
+            <table>
+                <p>How tall is the Eiffel Tower in Paris, France?</p>
+                <form action=""> <!--đặt radio cùng NAME  để chỉ chọn được 1 trong 4-->
+                    <input type="radio" name="rd1" id="584ft">
+                    <label for="584ft">584 ft</label> <br>
+                    <input type="radio" name="rd1" id="784ft">
+                    <label for="784ft">784 ft</label> <br>
+                    <input type="radio" name="rd1" id="984ft">
+                    <label for="984ft">984 ft</label> <br>
+                    <input type="radio" name="rd1" id="1184ft">
+                    <label for="1184ft">1184 ft</label> <br>
+                </form>
+            </table>
+        </fieldset>
+        <fieldset style="width: 400px;">
+            <legend>Tiebreaker Question</legend>
+            <label for="input">In 25 words or less, say why you would like to win $10,000:</label> <br>
+            <textarea name="txtW" id="input" cols="40" rows="10"></textarea>
+        </fieldset>
+        <fieldset style="width: 400px;">
+            <legend>Enter competition</legend>
+            <input type="submit" value="Enter Competition">
+        </fieldset>
+    </div>
+    <hr>
+    <h3>Bài 16</h3>
+    <div>
+
+    </div>
+    <hr>
+    <h3>Bài 17</h3>
+    <div class="bai17">
+        <form action="">
+            <h3 style="text-align: center;">Survey From</h3>
+            <p style="margin-left: 10px; margin-right: 10px;">If you are interested in purchasing one or more of our products, before ordering please complete some
+               or all of the following survey for our marketing department. Answering any question is
+               optional, and all information will be kept strictly. Thank you very much for your time!
+            </p>
+            <ol>
+                <li><label for="name">What is your name?</label> <br> <input type="text" name="txtName" id="name" size="30"></li>
+                <li>What is your date of birth? <br> 
+                    <label for="month">Month:</label> <select name="slM" id="month"><option value="">January</option>
+                                                                                   <option value="">February</option>
+                                                                                   <option value="">March</option>
+                                                                                   <option value="">April</option>
+                                                                                   <option value="">May</option>
+                                                                                   <option value="">June</option>
+                                                                                   <option value="">July</option>
+                                                                                   <option value="">August</option>
+                                                                                   <option value="">September</option>
+                                                                                   <option value="">October</option>
+                                                                                   <option value="">November</option>
+                                                                                   <option value="">December</option></select>
+                    <label for="date">Date:</label> <select name="slD" id="date"><option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    <option value="">6</option>
+                    <option value="">7</option>
+                    <option value="">8</option>
+                    <option value="">9</option>
+                    <option value="">10</option>
+                    <option value="">11</option>
+                    <option value="">12</option>
+                    <option value="">13</option>
+                    <option value="">14</option>
+                    <option value="">15</option>
+                    <option value="">16</option>
+                    <option value="">17</option>
+                    <option value="">18</option>
+                    <option value="">19</option>
+                    <option value="">20</option>
+                    <option value="">21</option>
+                    <option value="">22</option>
+                    <option value="">23</option>
+                    <option value="">24</option>
+                    <option value="">25</option>
+                    <option value="">26</option>
+                    <option value="">27</option>
+                    <option value="">28</option>
+                    <option value="">29</option>
+                    <option value="">30</option>
+                    <option value="">31</option></select>
+                    
+                    <label for="year">Year:</label> <input type="text" name="txtYear" id="year" size="5">
+    
+                </li>
+                <li><label for="address">What is your mailing address (if you would like to have a hard copy of our catalog sent to you?)</label>
+                    <textarea name="txtAddress" id="address" cols="50" rows="4"></textarea>
+                </li>
+                <li><label for="email1">What is your email address? </label> <br> <input type="email" name="email1" id="email1" size="30">  </li>
+                <li> Have you viewed our online product catalog? <br>
+                    <input type="radio" name="rdYN" id="rdY"> <label for="rdY">Yes</label>  
+                    <input type="radio" name="rdYN" id="rdN"> <label for="rdN">No</label> 
+                </li>
+                <li>If so, what product(s), besides the one you are ordering, might you be interested in purchasing in the future? (Check all that apply) <br>
+                    <input type="checkbox" name="chbVCR" id="vcr"> <label for="vcr">VCR</label> <br>
+                    <input type="checkbox" name="chbTV" id="TV"> <label for="TV">Big Screen TV</label> <br>
+                    <input type="checkbox" name="chbAE" id="AE"> <label for="AE">Audio Equipment</label> <br>
+                    <input type="checkbox" name="chbVE" id="VE"> <label for="VE">Video Equipment</label> <br>
+                    <input type="checkbox" name="chbCE" id="CE"> <label for="CE">Camera Equipment</label> <br>
+                    <input type="checkbox" name="chbOther" id="other"> <label for="other">Other</label> <input type="text" name="txtOther" id="other" value="Please List:" size="30">
+    
+                </li>
+                <li><label for="orderForm">Do you have any questions, comments or suggestions before proceeding to the Order Form?</label> <br> <textarea name="txtOrderForm" id="orderForm" cols="40" rows="5" >Your Input:</textarea></li>
+            </ol>
+            <input style="margin-left: 280px;" type="submit" value="Send From">
+            <input type="submit" value="Clear Form">
+    
+        </form>
+    </div>
+    <hr>
+    <div>
+        <form action="action_page.php">
+            <label for="browser">Browser:</label>
+            <select style="width: 200px;" name="slBrowser" id="browser">
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option></select> <br> <br>
+            <label for="userName">Username:</label>
+            <input type="text" name="txtUN" id="userName" size="30"> <br> <br>
+            <label for="encryption">Encryption:</label> 
+            <select style="width: 150px;" name="slEncryption" id="encrytion">
+                <option value="">2048(High Grade)</option>
+                <option value="">1048(Middle Grade)</option>
+                <option value="">48(Low Grade)</option>
+            </select> <br> <br>
+            <input type="range" name="" id="" min="0" max="100"> <br> <br>
+            <input type="number" name="number" id="number" min="0" max="50" style="width: 200px;"> <br> <br>
+            <label for="birthday">Birthday:</label> <input type="date" name="BD" id="birthday"> <br><br>
+            <label for="slcolor">Select your favorite color:</label> <input type="color" name="slColer" id="slcoler"> <br><br>
+            <label for="birthday2">Birthday (month and year):</label> <input type="month" name="BD2" id="birthday2"> <br><br>
+            <label for="slWeek">Select a week:</label> <input type="week" name="slWEEK" id="slWeek"> <br><br>
+            <label for="slTime">Select a time:</label> <input type="time" name="slTIME" id="slTime"> <br><br>
+            <label for="birthday3">Birthday (date and time):</label> <input type="datetime" name="BD3" id="birthday3"> <br><br>
+            <label for="email2">E-mail:</label> <input type="email" name="Email2" id="email2"> <br><br>
+            <label for="search">Search Google:</label> <input type="search" name="searchGG" id="search"> <br><br>
+            <label for="phone">Telephone:</label> <input type="tel" name="telPhone" id="phone"> <br><br>
+            <label for="homepage">Add your homepage:</label> <input type="url" name="homePage" id="homepage"> <br><br>
+            <input type="submit" value="Submit">
+            <p><b>Note: </b>The datalist tag is not supported in Safari or IE9 (and earlier).</p>
+
+        </form>
+    </div>
+    <hr>
+    <h3>Bài 18</h3>
+    <div>
+        <form action="" method="get" name="frmInfo">
+            Please indicate your area of interest: <br>
+            <input type="text" name="txtName1" id="" value="" size="20" maxlength="20" list="tech">
+            <datalist id="tech">
+                <option value="CSS">
+                <option value="HTML">
+                <option value="JavaScript">
+            </datalist>
+        </form>
+    </div>
+    <hr>
+    <h3>Bài 19</h3>
+    <div>
+        <p>.mp4</p>
+        <video src="" poster="/image/CD.jpeg" controls>
+            <source src="">
+        </video>
+    </div>
+
+    <hr>
+    <h3>Bài 21</h3>
+    <div>
+        <h2 style="text-align: center;">w3schools.com</h2>
+        <p style="text-align: center; font-style:inherit;" >THE WORLD'S LARGEST WEB DEVELOPER SITE</p>
+    </div>
+
+</body>
+</html>
